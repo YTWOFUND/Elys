@@ -124,7 +124,7 @@ elysd keys add wallet --recover
 evmosd status 2>&1 | jq .SyncInfo
 ```
 
-### We receive tokens from the tap in the [discord](https://discord.gg/0glabs)
+### We receive tokens from the tap in the [discord](https://discord.gg/elysnetwork)
 ```
 The faucet is not working yet, so we are waiting or asking for tokens in the chat.
 ```
