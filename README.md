@@ -48,7 +48,7 @@ go version
 cd && rm -rf elys
 git clone https://github.com/elys-network/elys
 cd elys
-git checkout v0.31.0
+git checkout v0.32.0
 ROCKSDB=1 LD_LIBRARY_PATH=/usr/local/lib make install
 ```
 
@@ -158,7 +158,7 @@ elysd tx staking create-validator \
 No update
 
 Current network:elystestnet-1
-Current version:v0.31.0
+Current version:v0.32.0
 ```
 
 ### Useful commands
