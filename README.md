@@ -48,7 +48,7 @@ go version
 cd && rm -rf elys
 git clone https://github.com/elys-network/elys
 cd elys
-git checkout v0.35.0
+git checkout v0.41.1
 ROCKSDB=1 LD_LIBRARY_PATH=/usr/local/lib make install
 ```
 
@@ -158,7 +158,7 @@ elysd tx staking create-validator \
 cd && rm -rf elys
 git clone https://github.com/elys-network/elys
 cd elys
-git checkout v0.35.0
+git checkout v0.41.1
 make install
 
 curl "https://snapshots-testnet.nodejumper.io/elys-testnet/elys-testnet_latest.tar.lz4" | lz4 -dc - | tar -xf - -C "$HOME/.elys"
@@ -167,7 +167,7 @@ sudo systemctl restart elysd
 sudo journalctl -u elysd -f --no-hostname -o cat
 
 Current network:elystestnet-1
-Current version:v0.35.0
+Current version:v0.41.1
 ```
 
 ### Useful commands
